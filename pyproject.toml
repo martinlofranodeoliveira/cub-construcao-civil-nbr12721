@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cub_construcao_civil_nbr12721"
+version = "1.0.0"
+description = "Cálculo determinístico de Custo Global de Construção, Área Equivalente (NBR 12721) e orçamentação CUB/m² em centavos exatos. Zero dependências — LOFRANO TECNOLOGIA."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "Martin Lofrano", email = "martin@lofranotecnologia.com.br" }
+]
+license = { text = "MIT" }
+keywords = [
+    "cub",
+    "nbr-12721",
+    "construcao-civil",
+    "area-equivalente",
+    "sinduscon",
+    "orcamento-de-obras",
+    "incorporacao-imobiliaria",
+    "engenharia-civil",
+    "lofrano-tecnologia"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Manufacturing",
+    "Intended Audience :: Other Audience",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: Portuguese (Brazilian)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Scientific/Engineering",
+]
+
+[project.urls]
+Homepage = "https://github.com/martinlofranodeoliveira/cub-construcao-civil-nbr12721"
+Repository = "https://github.com/martinlofranodeoliveira/cub-construcao-civil-nbr12721"
+
+[project.scripts]
+cub-orcamento = "cub_construcao_civil.cli:main"

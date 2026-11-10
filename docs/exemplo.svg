@@ -1,0 +1,412 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="1440" height="900">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1440" height="900" fill="url(#bgGrad)" />
+
+  <!-- Cabeçalho -->
+  <g transform="translate(60, 40)">
+    <text x="0" y="30" font-family="sans-serif" font-size="24" font-weight="800" fill="#f8fafc">
+      Edifício Residencial Jardins do Parque
+    </text>
+    <text x="0" y="54" font-family="sans-serif" font-size="13" font-weight="500" fill="#94a3b8">
+      Custo Global de Construção (NBR 12721) · Bairro Bela Vista · São Paulo / SP · Tipologia: R8-N · SINDUSCON-SP (11/2026)
+    </text>
+  </g>
+
+  <!-- 4 Cards Superiores Executivos -->
+  <g transform="translate(60, 115)">
+    <!-- Card 1: Custo Global -->
+    <g transform="translate(0, 0)">
+      <rect width="310" height="95" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <rect width="310" height="4" rx="2" fill="#10b981" />
+      <text x="16" y="24" font-family="sans-serif" font-size="11" font-weight="700" fill="#94a3b8">CUSTO GLOBAL ESTIMADO</text>
+      <text x="16" y="56" font-family="sans-serif" font-size="22" font-weight="800" fill="#10b981">R$ 13.991.737,10</text>
+      <text x="16" y="78" font-family="sans-serif" font-size="11" fill="#cbd5e1">CUB + Serviços Adicionais</text>
+    </g>
+
+    <!-- Card 2: Custo Base CUB -->
+    <g transform="translate(330, 0)">
+      <rect width="310" height="95" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <rect width="310" height="4" rx="2" fill="#38bdf8" />
+      <text x="16" y="24" font-family="sans-serif" font-size="11" font-weight="700" fill="#94a3b8">CUSTO BASE CUB (R8-N)</text>
+      <text x="16" y="56" font-family="sans-serif" font-size="22" font-weight="800" fill="#38bdf8">R$ 10.031.737,10</text>
+      <text x="16" y="78" font-family="sans-serif" font-size="11" fill="#cbd5e1">Valor CUB/m²: R$ 2.450,80</text>
+    </g>
+
+    <!-- Card 3: Áreas Reais e Equivalentes -->
+    <g transform="translate(660, 0)">
+      <rect width="310" height="95" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <rect width="310" height="4" rx="2" fill="#a855f7" />
+      <text x="16" y="24" font-family="sans-serif" font-size="11" font-weight="700" fill="#94a3b8">ÁREA EQUIVALENTE (NBR 12721)</text>
+      <text x="16" y="56" font-family="sans-serif" font-size="22" font-weight="800" fill="#a855f7">4.093,25 m²</text>
+      <text x="16" y="78" font-family="sans-serif" font-size="11" fill="#cbd5e1">Área Real: 4.985,00 m² (82,11%)</text>
+    </g>
+
+    <!-- Card 4: Custo Médio por m² Real -->
+    <g transform="translate(990, 0)">
+      <rect width="330" height="95" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <rect width="330" height="4" rx="2" fill="#f59e0b" />
+      <text x="16" y="24" font-family="sans-serif" font-size="11" font-weight="700" fill="#94a3b8">CUSTO MÉDIO / M² REAL</text>
+      <text x="16" y="56" font-family="sans-serif" font-size="22" font-weight="800" fill="#f59e0b">R$ 2.806,77 / m²</text>
+      <text x="16" y="78" font-family="sans-serif" font-size="11" fill="#cbd5e1">Adicionais: R$ 3.960.000,00</text>
+    </g>
+  </g>
+
+  <!-- Título Esquerdo: Quadro de Áreas NBR 12721 -->
+  <g transform="translate(60, 230)">
+    <text x="0" y="10" font-family="sans-serif" font-size="13" font-weight="800" fill="#f8fafc">
+      Quadro II NBR 12721 · Comparativo de Áreas Reais vs. Equivalentes em Custo
+    </text>
+  </g>
+
+  <!-- Linhas de Áreas (Esquerda) -->
+  
+          <g transform="translate(60, 250)">
+            <rect width="640" height="50" rx="6" fill="#1e293b" fill-opacity="0.5" stroke="#334155" stroke-width="1" />
+            <rect width="4" height="50" rx="2" fill="#38bdf8" />
+
+            <!-- Descrição e Código -->
+            <text x="16" y="22" font-family="sans-serif" font-size="12" font-weight="700" fill="#f8fafc">
+              AP-TIPO · Apartamentos-Tipo (32 unidad
+            </text>
+            <text x="16" y="38" font-family="sans-serif" font-size="10" fill="#94a3b8">
+              PRIVATIVA_PRINCIPAL_COBERTA · Coef: 100,00%
+            </text>
+
+            <!-- Barras Real vs Equivalente -->
+            <g transform="translate(300, 10)">
+              <!-- Barra Real -->
+              <rect x="0" y="2" width="240" height="10" rx="2" fill="#475569" />
+              <text x="250" y="11" font-family="sans-serif" font-size="10" font-weight="600" fill="#cbd5e1">
+                Real: 2.720,00 m²
+              </text>
+              <!-- Barra Equivalente -->
+              <rect x="0" y="18" width="240" height="10" rx="2" fill="#38bdf8" />
+              <text x="250" y="27" font-family="sans-serif" font-size="10" font-weight="700" fill="#38bdf8">
+                Equiv: 2.720,00 m²
+              </text>
+            </g>
+          </g>
+        
+          <g transform="translate(60, 308)">
+            <rect width="640" height="50" rx="6" fill="#1e293b" fill-opacity="0.5" stroke="#334155" stroke-width="1" />
+            <rect width="4" height="50" rx="2" fill="#818cf8" />
+
+            <!-- Descrição e Código -->
+            <text x="16" y="22" font-family="sans-serif" font-size="12" font-weight="700" fill="#f8fafc">
+              GAR-SS · Garagem Coberta no Subsolo
+            </text>
+            <text x="16" y="38" font-family="sans-serif" font-size="10" fill="#94a3b8">
+              GARAGEM_COBERTA_SUBSOLO · Coef: 75,00%
+            </text>
+
+            <!-- Barras Real vs Equivalente -->
+            <g transform="translate(300, 10)">
+              <!-- Barra Real -->
+              <rect x="0" y="2" width="86" height="10" rx="2" fill="#475569" />
+              <text x="250" y="11" font-family="sans-serif" font-size="10" font-weight="600" fill="#cbd5e1">
+                Real: 980,00 m²
+              </text>
+              <!-- Barra Equivalente -->
+              <rect x="0" y="18" width="64" height="10" rx="2" fill="#818cf8" />
+              <text x="250" y="27" font-family="sans-serif" font-size="10" font-weight="700" fill="#818cf8">
+                Equiv: 735,00 m²
+              </text>
+            </g>
+          </g>
+        
+          <g transform="translate(60, 366)">
+            <rect width="640" height="50" rx="6" fill="#1e293b" fill-opacity="0.5" stroke="#334155" stroke-width="1" />
+            <rect width="4" height="50" rx="2" fill="#f59e0b" />
+
+            <!-- Descrição e Código -->
+            <text x="16" y="22" font-family="sans-serif" font-size="12" font-weight="700" fill="#f8fafc">
+              VAR-SAC · Varandas e Sacadas Cobertas
+            </text>
+            <text x="16" y="38" font-family="sans-serif" font-size="10" fill="#94a3b8">
+              VARANDA_SACADA_COBERTA · Coef: 75,00%
+            </text>
+
+            <!-- Barras Real vs Equivalente -->
+            <g transform="translate(300, 10)">
+              <!-- Barra Real -->
+              <rect x="0" y="2" width="28" height="10" rx="2" fill="#475569" />
+              <text x="250" y="11" font-family="sans-serif" font-size="10" font-weight="600" fill="#cbd5e1">
+                Real: 320,00 m²
+              </text>
+              <!-- Barra Equivalente -->
+              <rect x="0" y="18" width="21" height="10" rx="2" fill="#f59e0b" />
+              <text x="250" y="27" font-family="sans-serif" font-size="10" font-weight="700" fill="#f59e0b">
+                Equiv: 240,00 m²
+              </text>
+            </g>
+          </g>
+        
+          <g transform="translate(60, 424)">
+            <rect width="640" height="50" rx="6" fill="#1e293b" fill-opacity="0.5" stroke="#334155" stroke-width="1" />
+            <rect width="4" height="50" rx="2" fill="#10b981" />
+
+            <!-- Descrição e Código -->
+            <text x="16" y="22" font-family="sans-serif" font-size="12" font-weight="700" fill="#f8fafc">
+              PIL-COM · Pilotis, Hall Social e Festa
+            </text>
+            <text x="16" y="38" font-family="sans-serif" font-size="10" fill="#94a3b8">
+              USO_COMUM_COBERTA_PILOTIS · Coef: 50,00%
+            </text>
+
+            <!-- Barras Real vs Equivalente -->
+            <g transform="translate(300, 10)">
+              <!-- Barra Real -->
+              <rect x="0" y="2" width="39" height="10" rx="2" fill="#475569" />
+              <text x="250" y="11" font-family="sans-serif" font-size="10" font-weight="600" fill="#cbd5e1">
+                Real: 450,00 m²
+              </text>
+              <!-- Barra Equivalente -->
+              <rect x="0" y="18" width="19" height="10" rx="2" fill="#10b981" />
+              <text x="250" y="27" font-family="sans-serif" font-size="10" font-weight="700" fill="#10b981">
+                Equiv: 225,00 m²
+              </text>
+            </g>
+          </g>
+        
+          <g transform="translate(60, 482)">
+            <rect width="640" height="50" rx="6" fill="#1e293b" fill-opacity="0.5" stroke="#334155" stroke-width="1" />
+            <rect width="4" height="50" rx="2" fill="#fb923c" />
+
+            <!-- Descrição e Código -->
+            <text x="16" y="22" font-family="sans-serif" font-size="12" font-weight="700" fill="#f8fafc">
+              TER-DESC · Terraços Descobertos e Solar
+            </text>
+            <text x="16" y="38" font-family="sans-serif" font-size="10" fill="#94a3b8">
+              TERRACO_DESCOBERTO · Coef: 30,00%
+            </text>
+
+            <!-- Barras Real vs Equivalente -->
+            <g transform="translate(300, 10)">
+              <!-- Barra Real -->
+              <rect x="0" y="2" width="15" height="10" rx="2" fill="#475569" />
+              <text x="250" y="11" font-family="sans-serif" font-size="10" font-weight="600" fill="#cbd5e1">
+                Real: 180,00 m²
+              </text>
+              <!-- Barra Equivalente -->
+              <rect x="0" y="18" width="4" height="10" rx="2" fill="#fb923c" />
+              <text x="250" y="27" font-family="sans-serif" font-size="10" font-weight="700" fill="#fb923c">
+                Equiv: 54,00 m²
+              </text>
+            </g>
+          </g>
+        
+          <g transform="translate(60, 540)">
+            <rect width="640" height="50" rx="6" fill="#1e293b" fill-opacity="0.5" stroke="#334155" stroke-width="1" />
+            <rect width="4" height="50" rx="2" fill="#34d399" />
+
+            <!-- Descrição e Código -->
+            <text x="16" y="22" font-family="sans-serif" font-size="12" font-weight="700" fill="#f8fafc">
+              LAZ-EXT · Piscinas e Quadra Descoberta
+            </text>
+            <text x="16" y="38" font-family="sans-serif" font-size="10" fill="#94a3b8">
+              AREAS_LAZER_DESCOBERTAS · Coef: 20,00%
+            </text>
+
+            <!-- Barras Real vs Equivalente -->
+            <g transform="translate(300, 10)">
+              <!-- Barra Real -->
+              <rect x="0" y="2" width="21" height="10" rx="2" fill="#475569" />
+              <text x="250" y="11" font-family="sans-serif" font-size="10" font-weight="600" fill="#cbd5e1">
+                Real: 240,00 m²
+              </text>
+              <!-- Barra Equivalente -->
+              <rect x="0" y="18" width="4" height="10" rx="2" fill="#34d399" />
+              <text x="250" y="27" font-family="sans-serif" font-size="10" font-weight="700" fill="#34d399">
+                Equiv: 48,00 m²
+              </text>
+            </g>
+          </g>
+        
+          <g transform="translate(60, 598)">
+            <rect width="640" height="50" rx="6" fill="#1e293b" fill-opacity="0.5" stroke="#334155" stroke-width="1" />
+            <rect width="4" height="50" rx="2" fill="#cbd5e1" />
+
+            <!-- Descrição e Código -->
+            <text x="16" y="22" font-family="sans-serif" font-size="12" font-weight="700" fill="#f8fafc">
+              CXA-MAQ · Caixa d&#x27;Água, Barrilete e Ca
+            </text>
+            <text x="16" y="38" font-family="sans-serif" font-size="10" fill="#94a3b8">
+              RESERVATORIO_BARRILETE_MAQUINAS · Coef: 75,00%
+            </text>
+
+            <!-- Barras Real vs Equivalente -->
+            <g transform="translate(300, 10)">
+              <!-- Barra Real -->
+              <rect x="0" y="2" width="8" height="10" rx="2" fill="#475569" />
+              <text x="250" y="11" font-family="sans-serif" font-size="10" font-weight="600" fill="#cbd5e1">
+                Real: 95,00 m²
+              </text>
+              <!-- Barra Equivalente -->
+              <rect x="0" y="18" width="6" height="10" rx="2" fill="#cbd5e1" />
+              <text x="250" y="27" font-family="sans-serif" font-size="10" font-weight="700" fill="#cbd5e1">
+                Equiv: 71,25 m²
+              </text>
+            </g>
+          </g>
+        
+
+  <!-- Painel Direito: Serviços Adicionais Não Inclusos (Lei 4.591/64) -->
+  <g transform="translate(740, 230)">
+    <!-- Card Resumo CUB vs Adicionais -->
+    <rect width="640" height="175" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="20" y="28" font-family="sans-serif" font-size="13" font-weight="800" fill="#f8fafc">
+      Composição do Custo Global de Construção
+    </text>
+    <text x="20" y="48" font-family="sans-serif" font-size="11" fill="#94a3b8">
+      Discriminação entre o padrão normatizado CUB e os serviços complementares de infraestrutura.
+    </text>
+
+    <!-- Barra de Composição CUB vs Adicionais -->
+    <g transform="translate(20, 70)">
+      <rect width="600" height="24" rx="4" fill="#0f172a" />
+      <rect width="430" height="24" rx="4" fill="#38bdf8" />
+      <rect x="430" y="0" width="169" height="24" rx="4" fill="#f59e0b" />
+    </g>
+
+    <g transform="translate(20, 120)">
+      <circle cx="6" cy="6" r="6" fill="#38bdf8" />
+      <text x="20" y="10" font-family="sans-serif" font-size="11" font-weight="600" fill="#cbd5e1">
+        CUB Básico: R$ 10.031.737,10 (71,69%)
+      </text>
+
+      <circle cx="320" cy="6" r="6" fill="#f59e0b" />
+      <text x="334" y="10" font-family="sans-serif" font-size="11" font-weight="600" fill="#cbd5e1">
+        Adicionais (Lei 4.591): R$ 3.960.000,00 (28,30%)
+      </text>
+    </g>
+
+    <text x="20" y="152" font-family="sans-serif" font-size="11" fill="#64748b">
+      Fundações profundas, elevadores, BDI, urbanização e projetos complementares.
+    </text>
+  </g>
+
+  <!-- Título dos Serviços Adicionais -->
+  <g transform="translate(740, 430)">
+    <text x="0" y="10" font-family="sans-serif" font-size="13" font-weight="800" fill="#f8fafc">
+      Itens Não Inclusos no CUB (Art. 54 da Lei 4.591/64)
+    </text>
+  </g>
+
+  <!-- Linhas dos Itens Adicionais -->
+  
+          <g transform="translate(740, 450)">
+            <rect width="640" height="44" rx="6" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1" />
+            <text x="16" y="22" font-family="sans-serif" font-size="12" font-weight="700" fill="#f8fafc">
+              FUND-01 · Fundações Profundas em Estacas H
+            </text>
+            <text x="16" y="36" font-family="sans-serif" font-size="10" fill="#94a3b8">
+              FUNDACOES_ESPECIAIS
+            </text>
+
+            <text x="450" y="26" font-family="sans-serif" font-size="13" font-weight="800" fill="#f59e0b">
+              R$ 850.000,00
+            </text>
+            <text x="560" y="26" font-family="sans-serif" font-size="11" fill="#64748b">
+              (21,46%)
+            </text>
+          </g>
+        
+          <g transform="translate(740, 502)">
+            <rect width="640" height="44" rx="6" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1" />
+            <text x="16" y="22" font-family="sans-serif" font-size="12" font-weight="700" fill="#f8fafc">
+              ELEV-02 · Conjunto de 2 Elevadores Sociais
+            </text>
+            <text x="16" y="36" font-family="sans-serif" font-size="10" fill="#94a3b8">
+              ELEVADORES
+            </text>
+
+            <text x="450" y="26" font-family="sans-serif" font-size="13" font-weight="800" fill="#f59e0b">
+              R$ 420.000,00
+            </text>
+            <text x="560" y="26" font-family="sans-serif" font-size="11" fill="#64748b">
+              (10,60%)
+            </text>
+          </g>
+        
+          <g transform="translate(740, 554)">
+            <rect width="640" height="44" rx="6" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1" />
+            <text x="16" y="22" font-family="sans-serif" font-size="12" font-weight="700" fill="#f8fafc">
+              INST-03 · Instalações de Combate a Incêndi
+            </text>
+            <text x="16" y="36" font-family="sans-serif" font-size="10" fill="#94a3b8">
+              INSTALACOES_ESPECIAIS
+            </text>
+
+            <text x="450" y="26" font-family="sans-serif" font-size="13" font-weight="800" fill="#f59e0b">
+              R$ 310.000,00
+            </text>
+            <text x="560" y="26" font-family="sans-serif" font-size="11" fill="#64748b">
+              (7,82%)
+            </text>
+          </g>
+        
+          <g transform="translate(740, 606)">
+            <rect width="640" height="44" rx="6" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1" />
+            <text x="16" y="22" font-family="sans-serif" font-size="12" font-weight="700" fill="#f8fafc">
+              URB-04 · Urbanização Externa, Paisagismo 
+            </text>
+            <text x="16" y="36" font-family="sans-serif" font-size="10" fill="#94a3b8">
+              URBANIZACAO_PAISAGISMO
+            </text>
+
+            <text x="450" y="26" font-family="sans-serif" font-size="13" font-weight="800" fill="#f59e0b">
+              R$ 180.000,00
+            </text>
+            <text x="560" y="26" font-family="sans-serif" font-size="11" fill="#64748b">
+              (4,54%)
+            </text>
+          </g>
+        
+          <g transform="translate(740, 658)">
+            <rect width="640" height="44" rx="6" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1" />
+            <text x="16" y="22" font-family="sans-serif" font-size="12" font-weight="700" fill="#f8fafc">
+              PROJ-05 · Projetos Executivos, Compatibili
+            </text>
+            <text x="16" y="36" font-family="sans-serif" font-size="10" fill="#94a3b8">
+              PROJETOS_TAXAS
+            </text>
+
+            <text x="450" y="26" font-family="sans-serif" font-size="13" font-weight="800" fill="#f59e0b">
+              R$ 250.000,00
+            </text>
+            <text x="560" y="26" font-family="sans-serif" font-size="11" fill="#64748b">
+              (6,31%)
+            </text>
+          </g>
+        
+          <g transform="translate(740, 710)">
+            <rect width="640" height="44" rx="6" fill="#1e293b" fill-opacity="0.6" stroke="#334155" stroke-width="1" />
+            <text x="16" y="22" font-family="sans-serif" font-size="12" font-weight="700" fill="#f8fafc">
+              BDI-06 · BDI da Construtora e Remuneração
+            </text>
+            <text x="16" y="36" font-family="sans-serif" font-size="10" fill="#94a3b8">
+              BDI_INCORPORACAO
+            </text>
+
+            <text x="450" y="26" font-family="sans-serif" font-size="13" font-weight="800" fill="#f59e0b">
+              R$ 1.950.000,00
+            </text>
+            <text x="560" y="26" font-family="sans-serif" font-size="11" fill="#64748b">
+              (49,24%)
+            </text>
+          </g>
+        
+
+  <!-- Rodapé -->
+  <g transform="translate(60, 860)">
+    <text x="0" y="15" font-family="sans-serif" font-size="11" fill="#64748b">
+      Conformidade ABNT NBR 12721:2006 · Lei Federal nº 4.591/1964 · Aritmética Exata (Zero Float) · LOFRANO TECNOLOGIA
+    </text>
+  </g>
+</svg>

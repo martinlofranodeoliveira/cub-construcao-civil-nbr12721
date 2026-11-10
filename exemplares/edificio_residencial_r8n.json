@@ -1,0 +1,91 @@
+{
+  "identificacao": "Edifício Residencial Jardins do Parque",
+  "localizacao": "Bairro Bela Vista · São Paulo / SP",
+  "tipologia": "R8-N",
+  "mes_ano_referencia": "11/2026",
+  "sinduscon_estado": "SINDUSCON-SP",
+  "valor_cub_m2_centavos": 245080,
+  "desoneracao_folha": false,
+  "areas": [
+    {
+      "codigo": "AP-TIPO",
+      "descricao": "Apartamentos-Tipo (32 unidades)",
+      "tipo_area": "PRIVATIVA_PRINCIPAL_COBERTA",
+      "area_real_m2_centesimos": 272000
+    },
+    {
+      "codigo": "GAR-SS",
+      "descricao": "Garagem Coberta no Subsolo",
+      "tipo_area": "GARAGEM_COBERTA_SUBSOLO",
+      "area_real_m2_centesimos": 98000
+    },
+    {
+      "codigo": "VAR-SAC",
+      "descricao": "Varandas e Sacadas Cobertas",
+      "tipo_area": "VARANDA_SACADA_COBERTA",
+      "area_real_m2_centesimos": 32000
+    },
+    {
+      "codigo": "PIL-COM",
+      "descricao": "Pilotis, Hall Social e Festas",
+      "tipo_area": "USO_COMUM_COBERTA_PILOTIS",
+      "area_real_m2_centesimos": 45000
+    },
+    {
+      "codigo": "TER-DESC",
+      "descricao": "Terraços Descobertos e Solarium",
+      "tipo_area": "TERRACO_DESCOBERTO",
+      "area_real_m2_centesimos": 18000
+    },
+    {
+      "codigo": "LAZ-EXT",
+      "descricao": "Piscinas e Quadra Descoberta",
+      "tipo_area": "AREAS_LAZER_DESCOBERTAS",
+      "area_real_m2_centesimos": 24000
+    },
+    {
+      "codigo": "CXA-MAQ",
+      "descricao": "Caixa d'Água, Barrilete e Casa de Máquinas",
+      "tipo_area": "RESERVATORIO_BARRILETE_MAQUINAS",
+      "area_real_m2_centesimos": 9500
+    }
+  ],
+  "itens_nao_inclusos": [
+    {
+      "codigo": "FUND-01",
+      "descricao": "Fundações Profundas em Estacas Hélice Contínua e Contenção",
+      "tipo": "FUNDACOES_ESPECIAIS",
+      "custo_centavos": 85000000
+    },
+    {
+      "codigo": "ELEV-02",
+      "descricao": "Conjunto de 2 Elevadores Sociais de Alta Velocidade",
+      "tipo": "ELEVADORES",
+      "custo_centavos": 42000000
+    },
+    {
+      "codigo": "INST-03",
+      "descricao": "Instalações de Combate a Incêndio, Pressurização e Gerador",
+      "tipo": "INSTALACOES_ESPECIAIS",
+      "custo_centavos": 31000000
+    },
+    {
+      "codigo": "URB-04",
+      "descricao": "Urbanização Externa, Paisagismo e Pavimentação",
+      "tipo": "URBANIZACAO_PAISAGISMO",
+      "custo_centavos": 18000000
+    },
+    {
+      "codigo": "PROJ-05",
+      "descricao": "Projetos Executivos, Compatibilização BIM e Taxas Cartorárias",
+      "tipo": "PROJETOS_TAXAS",
+      "custo_centavos": 25000000
+    },
+    {
+      "codigo": "BDI-06",
+      "descricao": "BDI da Construtora e Remuneração da Incorporação (15%)",
+      "tipo": "BDI_INCORPORACAO",
+      "custo_centavos": 195000000
+    }
+  ]
+}
